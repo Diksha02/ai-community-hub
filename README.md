@@ -1,6 +1,6 @@
-# AariyaTech UK — AI Community Hub
+# AariyaTech UK - AI Community Hub
 
-Welcome — this repository is the central hub for AariyaTech UK's AI community: projects, events, onboarding guides, and resources.
+Welcome - this repository is the central hub for AariyaTech UK's AI community: projects, events, onboarding guides, and resources.
 
 ## Quick start
 1. Read the Code of Conduct: `CODE_OF_CONDUCT.md`  
