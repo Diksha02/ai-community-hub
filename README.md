@@ -13,7 +13,7 @@ Welcome - this repository is the central hub for AariyaTech UK's AI community: p
 - Event info and recordings
 
 ## Contact
-For community concerns: hello@aariyatech.co.uk
+For community concerns: community@aariyatech.co.uk
 
 <br>
 
