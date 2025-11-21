@@ -57,6 +57,19 @@ git push origin feature/your-branch-name
 
 A maintainer will review your changes and may provide feedback.
 
+7. (Important) Link Your PR to an Issue
+
+If your pull request fixes or completes an open issue, add one of the following keywords in your PR description:
+
+- `Closes #<issue-number>`
+- `Fixes #<issue-number>`
+- `Resolves #<issue-number>`
+
+This ensures GitHub will automatically close the issue once your PR is merged.
+
+#### ✅ Example:
+If your PR solves Issue #2, write:
+
 ---
 
 ## 4. 💬 **Where to Ask Questions**
