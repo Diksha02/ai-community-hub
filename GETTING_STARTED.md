@@ -23,12 +23,27 @@ git clone https://github.com/YOUR_USERNAME/ai-community-hub.git
 cd ai-community-hub
 ```
 
-### **Create a new branch:**
+### Add a reference(remote) to the original repository:
 ```bash
-git checkout -b feature/your-branch-name
+git remote add https://github.com/Aariyatech-UK/ai-community-hub.git
 ```
 
-Examples:
+### Check the remotes for this repository:
+```bash
+git remote -v
+```
+
+### Always take a pull from the upstream repository to your master branch to keep it at par with the main project (updated repository):
+```bash
+git pull upstream master
+```
+
+### **Create a new branch:**
+```bash
+git checkout -b <your-branch-name>
+```
+
+Examples of branch names:
 
 - feature/update-docs  
 - docs/getting-started  
@@ -48,14 +63,12 @@ git commit -m "docs: add getting started guide"
 
 3. Push the branch to your fork:
 ```bash
-git push origin feature/your-branch-name
+git push origin <your-branch-name>
 ```
 
-4. Go to your fork on GitHub → click **Compare & Pull Request**.  
-5. Add a short description.  
-6. Submit the PR.  
-
-A maintainer will review your changes and may provide feedback.
+4. Go to your fork on GitHub → click **Compare & Pull Request**.
+5. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+6. Add appropriate title and description to your pull request explaining your changes and efforts done.   
 
 7. (Important) Link Your PR to an Issue
 
@@ -65,10 +78,16 @@ If your pull request fixes or completes an open issue, add one of the following 
 - `Fixes #<issue-number>`
 - `Resolves #<issue-number>`
 
+#### ✅ Example:
+If your PR solves Issue #2, at the end of the description write:
+`Closes #2`
+
 This ensures GitHub will automatically close the issue once your PR is merged.
 
-#### ✅ Example:
-If your PR solves Issue #2, write:
+8. Submit the PR by clicking on `Create Pull Request`.
+9. Sit back patiently and relax while the project maintainers review your PR. Please understand, at times the time taken to review a PR can vary from a few hours to a few days.
+
+
 
 ---
 
