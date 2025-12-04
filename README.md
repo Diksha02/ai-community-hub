@@ -4,8 +4,9 @@ Welcome - this repository is the central hub for AariyaTech UK's AI community: p
 
 ## Quick start
 1. Read the Code of Conduct: `CODE_OF_CONDUCT.md`  
-2. Read how to contribute: `CONTRIBUTING.md`  
-3. Join Discussions for onboarding and project proposals
+2. Read how to contribute: `CONTRIBUTING.md`
+3. To get started contributing to the projects: `GETTING_STARTED.md`  
+4. Join Discussions for onboarding and project proposals
 
 ## What we host
 - Community projects and starter examples
